@@ -1,8 +1,54 @@
 ---
 const today = new Date();
+import { Image } from "astro:assets";
+
 ---
 
+
 <footer class="footer footer-center block mb-5 pt-10">
+  
+
+  <div class="flex py-2 flex-wrap justify-center gap-6">
+    <div class="flex-initial">
+      <text class="text-lg font-bold pr-3">Funded By: </text>
+    </div>
+    <div class="flex-initial">
+      <Image
+      src="/DBT-IA.png"
+      width={128}
+      height={64}
+      format="webp"
+      alt="dbt-ia"
+      class=""
+    />
+  </div>
+    <div class="flex-initial">
+      <Image
+      src="/serb.png"
+      width={128}
+      height={64}
+      format="webp"
+      alt="serb"
+      class=""
+    />
+    </div>
+  <div class="flex-initial">
+    <Image
+    src="/simons_found.png"
+    width={128}
+    height={64}
+    format="webp"
+    alt="simons foundation"
+    class=""
+  />
+</div>
+
+
+
+<div class="flex-initial">
+<text class="text-md font-bold">Pratiksha Trust </br>EMSTAR</text>
+</div>
+  </div>
   <div class="inline opacity-75 pb-3">
     IISER, Dr. Homi Bhabha Road, Pashan, Pune : 411008, INDIA | Tel No. : +91 (20) 25908000 <br>
   </div>

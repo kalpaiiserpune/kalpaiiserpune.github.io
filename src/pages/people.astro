@@ -1,0 +1,139 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import HorizontalCard from "../components/HorizontalCard.astro";
+---
+
+<BaseLayout title = "People" sideBarActiveItemID="people">
+  <div>
+    <div class="text-5xl w-full font-bold mb-5">People</div>
+  </div>
+  <HorizontalCard
+  title="Collins Assisi"
+  img="/collins.jpg"
+  desc="Principal Investigator"
+  url="#!"
+  #badge="NEW"
+/>
+<div class="divider my-0 mb-5"></div>
+<div class="text-3xl w-full font-bold mb-5">PhD Students</div>
+  <!-- <div class="grid grid-cols-2 grid-flow-col-dense gap-6"> -->
+  <div class="grid md:grid-cols-2 ">
+
+
+
+  
+  
+  <HorizontalCard
+    title="Inayath Shaikh"
+    img="/post_img.webp"
+    desc="PhD Student"
+    url="#!"
+  />
+    <HorizontalCard
+    title="Sidharth Adithyan"
+    img="/post_img.webp"
+    desc="PhD Student"
+    url="#!"
+  />
+    <HorizontalCard
+    title="Arkadeep Pal"
+    img="/post_img.webp"
+    desc="PhD Student"
+    url="#!"
+  />
+    <HorizontalCard
+    title="JeevanKumar Gochhayat"
+    img="/post_img.webp"
+    desc="PhD Student"
+    url="#!"
+  />
+  <!-- <div class="divider my-0"></div> -->
+  <HorizontalCard
+    title="Gourav Halder"
+    img="/post_img.webp"
+    desc="PhD Student"
+    url="#!"
+    #badge="FOSS"
+  />
+    <HorizontalCard
+    title="Aiman Mushtaq"
+    img="/post_img.webp"
+    desc="PhD Student"
+    url="#!"
+    #badge="FOSS"
+  />
+</div>
+<div class="divider my-0 mb-5"></div>
+<div class="text-3xl w-full font-bold mb-5">MS Project Students</div>
+  <div class="grid md:grid-cols-2">
+
+
+  
+  
+  <HorizontalCard
+    title="Srirang Nabar"
+    img="/srirang.jpg"
+    desc="Fifth Year BS MS Student"
+    url="#!"
+  />
+
+</div>
+<!-- <div class="divider my-0 mb-5"></div>
+<div class="text-3xl w-full font-bold mb-5">BS MS Project Students</div>
+  <div class="grid md:grid-cols-2">
+
+
+</div> -->
+<div class="divider my-0 mb-5"></div>
+<div class="text-3xl w-full font-bold mb-5">Alumni</div>
+  <div class="grid md:grid-cols-2">
+
+
+  
+  
+  <HorizontalCard
+    title="Sandeep Chowdhary"
+    img="/sandeep.jpg"
+    desc="Fifth year BS-MS student"
+    url="#!"
+  />
+    <HorizontalCard
+    title="Shivik Garg"
+    img="/shivik.jpg"
+    desc="PhD student"
+    url="#!"
+  />
+  <HorizontalCard
+  title="Shruti Joshi"
+  img="/shruti.jpg"
+  desc="Project Assistant"
+  url="#!"
+/>
+  <HorizontalCard
+  title="Rishika Mohanta"
+  img="/Rishika.png"
+  desc="BS MS Student"
+  url="#!"
+/>
+<HorizontalCard
+title="Akshay Nair"
+img="/akshay.jpg"
+desc="Fifth year BSMS student"
+url="#!"
+/>
+<HorizontalCard
+title="Arun Neru"
+img="/arun.jpg"
+desc="PhD student"
+url="#!"
+/>
+
+
+<HorizontalCard
+title="Divyansh Gupta"
+img="/post_img.webp"
+desc="BS MS Student"
+url="#!"
+/>
+</div>
+</BaseLayout>

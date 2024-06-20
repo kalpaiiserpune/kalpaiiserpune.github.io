@@ -1,0 +1,82 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import HorizontalCard from "../components/HorizontalCard.astro";
+import { getCollection } from "astro:content";
+import createSlug from "../lib/createSlug"
+
+const posts = (await getCollection("blog")).sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+
+const last_posts = posts.slice(0, 3);
+---
+
+<BaseLayout sideBarActiveItemID="home">
+  <div class="pb-12 mt-5">
+    <div class="text-5xl font-bold">Collins Assisi</div>
+    <div class="text-2xl py-3 font-bold">Theoretical Neuroscience Lab, IISER Pune </div>
+    <div class="py-2">
+      <text class="text-lg">
+        Animals can rapidly detect changes, characterize, and navigate a constantly changing world. 
+        The richness of this milieu is reflected in the variety of dynamic patterns that neuronal networks can generate. 
+        The goal of our research is to study how cellular and network properties constrain the generation of these 
+        spatiotemporal patterns and determine their functional role. We address these broad goals within the context of 
+        two paradigmatic systems in neuroscience, the hippocampal formation and the olfactory system. We construct and 
+        simulate detailed and idealized models of neuronal networks to understand the peculiarities of these systems while 
+        also abstracting broad principles underlying information processing in the brain.
+      </text>
+    </div>
+    <div class="mt-6">
+      <a  class="btn btn-outline hover:btn-accent" href="/publications" > Publications</a>
+      <a href="/people"  class="btn ml-5">
+        Lab Members
+      </a>
+    
+    </div>
+  </div>
+
+  <!-- <div>
+    <div class="text-3xl w-full font-bold mb-2">Recent Papers {"</>"}</div>
+  </div>
+
+  <HorizontalCard
+    title="Biophysically Detailed Attractor Model of Grid Cells"
+    img="/grid_cells.jpg"
+    desc="Building a biophysically detailed continous attractor model of Grid Cells. We are investagting the role of special conductances such HCN in functioning of Grid cells"
+    url="#"
+    #badge="NEW"
+  />
+  <div class="divider my-0"></div>
+  <HorizontalCard
+    title="Stochastic Resonance In Entrohinal Cortex"
+    img="/post_img.webp"
+    desc="Noise in Induced propogation of signals in Entorhinal Cortex (with Divyansh Gupta)"
+    url="#"
+  />
+  <div class="divider my-0"></div>
+  <HorizontalCard
+    title="Emergence of Modularity in Grid Cells"
+    img="/post_img.webp"
+    desc=""
+    url="#"
+    #badge="FOSS"
+  /> -->
+
+<div>
+    <div class="text-3xl w-full font-bold mb-5 mt-6">Recent News</div>
+  </div>
+
+  {
+    last_posts.map((post) => (
+      <>
+        <HorizontalCard
+          title={post.data.title}
+          img={post.data.heroImage}
+          desc={post.data.description}
+          url={"/blog/" + createSlug(post.data.title, post.slug)}
+          target="_self"
+          badge={post.data.badge}
+        />
+        <div class="divider my-0" />
+      </>
+    ))
+  }
+</BaseLayout>

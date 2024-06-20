@@ -1,0 +1,34 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import HorizontalCardBig from "../components/HorizontalCardBig.astro";
+---
+
+<BaseLayout title = "Research" sideBarActiveItemID="research">
+  <div>
+    <div class="flex justify-center text-4xl w-full font-bold mb-8">Research</div>
+  </div>
+
+    <HorizontalCardBig
+    title="Spatial Navigation"
+    img="/spatial_navigation.jpg"
+    desc="As animals navigate the world, they maintain an internal representation of their spatial location. Tolman termed this representation a cognitive map. The subsequent discovery of place cells in the CA1 region of the hippocampus and grid cells in the medial entorhinal cortex revealed a neural instantiation of Tolman’s cognitive map. Place cells fire when the animal is located at circumscribed regions of space. Grid cells generate spikes at the vertices of a hexagonally symmetric grid that tiles all space. Different cells respond maximally at different locations forming a patchwork of locations that cover the entire space.  How do these patterns emerge from the wetware of the medial entorhinal cortex?  Our work uses realistic models of neurons in the entorhinal cortex to examine the mechanisms that lead to the formation of stable grid patterns.  "
+    url="#"
+    #badge="NEW"
+  />
+  <div class="divider my-0"></div>
+  <HorizontalCardBig
+    title="Olfaction"
+    img="/olfaction.jpg"
+    desc="Olfactory circuitry provides unique advantages for the analysis of information processing by neurons. The task of olfaction is challenging; it demands the ability to rapidly detect, identify, categorize, and prepare for memory storage myriad odorants that vary in molecular structure and concentration. Yet, olfaction is achieved by relatively few layers of neurons, with anatomical structures and physiological mechanisms that appear repeatedly in widely divergent species. Thus, a study of olfaction offers the promise of insight into a successful and perhaps optimal biological algorithm for processing complex information. The representation of an odor is transformed as it traverses multiple layers of the olfactory system from the antenna (or nose), to the antennal lobe (the insect equivalent of the olfactory bulb in mammals) and the mushroom body.  our research examines mechanisms underlying these transformations and the computational advantages of transforming sensory representations from one layer to the next in the olfactory system. "
+    url="#"
+  />
+  <div class="divider my-0"></div>
+  <HorizontalCardBig
+    title="Dynamics on networks"
+    img="/dyn.jpg"
+    desc="Neuronal networks can generate a profusion of spatiotemporal patterns. Our research examines how the structure of the network informs its dynamics. "
+    url="#"
+    #badge="FOSS"
+  />
+
+</BaseLayout>

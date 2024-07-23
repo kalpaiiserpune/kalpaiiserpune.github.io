@@ -1,13 +1,15 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import HorizontalCard from "../components/HorizontalCard.astro";
+import HorizontalCardModal from "@components/HorizontalCardModal.astro";
+
 ---
 
 <BaseLayout title = "People" sideBarActiveItemID="people">
   <div>
     <div class="text-5xl w-full font-bold mb-5">People</div>
   </div>
-  <HorizontalCard
+  <HorizontalCardModal
   title="Collins Assisi"
   img="/collins.jpg"
   desc="Principal Investigator"
@@ -20,43 +22,56 @@ import HorizontalCard from "../components/HorizontalCard.astro";
   <div class="grid md:grid-cols-2 ">
 
 
-
-  
-  
-  <HorizontalCard
+  <!-- <HorizontalCard
     title="Inayath Shaikh"
     img="/post_img.webp"
     desc="PhD Student"
     url="#!"
-  />
-    <HorizontalCard
-    title="Sidharth Adithyan"
-    img="/sidharth.jpg"
-    desc="PhD Student"
-    url="#!"
-  />
-    <HorizontalCard
+  /> -->
+  <HorizontalCardModal
+  title="Inayath Shaikh"
+  img="/post_img.webp"
+  desc="PhD Student"
+  info="<b>Project: </b>Biophysical mechanisms underlying grid cell activity and functioning"
+  url="#!"
+/>
+<!-- <HorizontalCard
+title="Sidharth Adithyan"
+img="/sidharth.jpg"
+desc="PhD Student"
+url="#!"
+/> -->
+
+<HorizontalCardModal
+title="Sidharth Adithyan"
+img="/sidharth.jpg"
+desc="PhD Student"
+url="#!"
+/>
+
+    <HorizontalCardModal
     title="Arkadeep Pal"
     img="/arkadeep.jpg"
     desc="PhD Student"
     url="#!"
   />
-    <HorizontalCard
+    <HorizontalCardModal
     title="Jeevan Kumar Gochhayat"
     img="/jeevan.png"
     desc="PhD Student"
-    url="https://www.researchgate.net/profile/Jeevan-Kumar-Gochhayat"
+    url=""
     target="_blank"
+    info="<a href='https://www.researchgate.net/profile/Jeevan-Kumar-Gochhayat' target='_blank'>Research Gate</a>"
   />
   <!-- <div class="divider my-0"></div> -->
-  <HorizontalCard
+  <HorizontalCardModal
     title="Gourav Halder"
     img="/gourav.jpeg"
     desc="PhD Student"
     url="#!"
     #badge="FOSS"
   />
-    <HorizontalCard
+    <HorizontalCardModal
     title="Aiman Mushtaq"
     img="/Aiman.jpg"
     desc="PhD Student"
@@ -71,7 +86,7 @@ import HorizontalCard from "../components/HorizontalCard.astro";
 
   
   
-  <HorizontalCard
+  <HorizontalCardModal
     title="Srirang Nabar"
     img="/srirang.png"
     desc="BS MS Student"
@@ -81,7 +96,7 @@ import HorizontalCard from "../components/HorizontalCard.astro";
 <div class="text-3xl w-full font-bold mb-5">BS MS Project Students</div>
   <div class="grid md:grid-cols-2"> -->
 
-  <HorizontalCard
+  <HorizontalCardModal
   title="Divyansh Gupta"
   img="/divyansh.jpeg"
   desc="BS MS Student"
@@ -98,7 +113,7 @@ import HorizontalCard from "../components/HorizontalCard.astro";
 <div class="divider my-0 mb-5"></div>
 <div class="text-3xl w-full font-bold mb-5">Alumni</div>
   <div class="grid md:grid-cols-2">
-    <HorizontalCard
+    <HorizontalCardModal
     title="TBA"
     img="/post_img.webp"
     desc=""

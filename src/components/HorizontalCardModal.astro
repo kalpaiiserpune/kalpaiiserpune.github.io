@@ -14,10 +14,7 @@ const people_id = title.replace(/\s/g, "")
 
       // Read the message from the data attribute.
       const people_id = this.dataset.people_id;
-      console.log(people_id)
       function handleClick () {
-      console.log(people_id)
-
       document.getElementById(people_id).showModal()}
     
       document.getElementById(people_id+"_button").addEventListener("click", handleClick);

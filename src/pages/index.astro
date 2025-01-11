@@ -4,7 +4,7 @@ import HorizontalCard from "../components/HorizontalCard.astro";
 import { getCollection } from "astro:content";
 import createSlug from "../lib/createSlug"
 
-const posts = (await getCollection("blog")).sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+const posts = (await getCollection("posts")).sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 
 const last_posts = posts.slice(0, 3);
 ---
@@ -21,7 +21,7 @@ const last_posts = posts.slice(0, 3);
     
     <div class="mt-6">
 
-      <a  class="btn btn-outline hover:btn-accent text-lg font-medium" href="/blog" > Posts</a>
+      <a  class="btn btn-outline hover:btn-accent text-lg font-medium" href="/posts" > Posts</a>
       <a href="./joinus/index.html"  class="btn ml-5 text-lg font-medium">
         Join Us
       </a>
@@ -55,8 +55,8 @@ const last_posts = posts.slice(0, 3);
     #badge="FOSS"
   /> -->
 
-<!--- <div>
-    <div class="text-3xl w-full font-bold mb-5 mt-5">Recent News</div>
+<div>
+    <div class="text-3xl w-full font-bold mb-5 mt-5">Recent Posts</div>
   </div>
 
   {
@@ -66,7 +66,7 @@ const last_posts = posts.slice(0, 3);
           title={post.data.title}
           img={post.data.heroImage}
           desc={post.data.description}
-          url={"/blog/" + createSlug(post.data.title, post.slug)}
+          url={"/posts/" + createSlug(post.data.title, post.slug)}
           target="_self"
           badge={post.data.badge}
         />
@@ -76,4 +76,4 @@ const last_posts = posts.slice(0, 3);
   }
 </BaseLayout>
 
--->
+

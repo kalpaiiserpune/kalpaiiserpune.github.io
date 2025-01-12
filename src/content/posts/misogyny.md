@@ -3,10 +3,10 @@ title: "Misogyny Inc."
 description: "An account of misogyny on campus."
 authors: ["Gowri Niranjana", "Kunjal Parnami", "Likhith Chandragiri", "Misaal Bedi", "Nikita Gupte", "Saismit Naik", "Satavisha De"]
 pubDate: "Aug 18 2020"
-heroImage: "/misogyny.webp"
+heroImage: "/misogyny/misogyny.webp"
 ---
 
-RIGGER WARNING: The following article contains descriptions of incidents that could be disturbing to readers.
+TRIGGER WARNING: The following article contains descriptions of incidents that could be disturbing to readers.
 
 
 Note to the reader: Many of the incidents you are about to read are unreported, often owing to a lack of witnesses due to the intimate nature of the crime and the stigma associated with speaking up about it. We, as investigators, have done our best to bring to light as rounded a perspective as enabled by our means and we urge you to respect the anonymity of individuals mentioned.
@@ -40,6 +40,7 @@ A similar situation occurred during Hindi Diwas celebrations wherein groups of m
 
 These incidents are often heard, sometimes experienced, and eventually forgotten. But when they start seeping into daily routine, into shared workspaces, they leave a lasting impact.
 
+<img src = '/misogyny/u.png'/>
 
 Results from the anonymous survey conducted in campus, December 6th, 2019
 

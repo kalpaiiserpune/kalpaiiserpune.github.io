@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://assisilab.github.io/sitemap-index.xml

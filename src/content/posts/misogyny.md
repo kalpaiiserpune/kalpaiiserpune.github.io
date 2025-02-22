@@ -2,7 +2,7 @@
 title: "Misogyny Inc."
 description: "An account of misogyny on campus."
 authors: ["Gowri Niranjana", "Kunjal Parnami", "Likhith Chandragiri", "Misaal Bedi", "Nikita Gupte", "Saismit Naik", "Satavisha De"]
-pubDate: "Aug 18 2020"
+pubDate: "2020-08-13"
 heroImage: "/misogyny/misogyny.webp"
 ---
 

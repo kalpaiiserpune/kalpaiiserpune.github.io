@@ -1,7 +1,7 @@
 ---
 title: "The New Abnormal"
 description: "Tossed into the tempest, and still tumbling down....this 98Acres article offers a peek into the pandemic's raging pandemonium. An insight into the many trials and errors of the management in a premier institute during the global pandemic."
-pubDate: "Sep 21 2021"
+pubDate: "2021-09-21"
 heroImage: "/abnormal/newabnormal.png"
 ---
 
@@ -82,6 +82,7 @@ Professors at IISER Pune too were compassionate and active in providing relief d
 One realized very quickly that the laborer’s camp (basti) in the campus was in dire need of help at that point. And this was something well within our reach. They were right next door, and it could be shocking if we as a community had ignored them. What was heart-warming and endearing was how quickly we were able to generate sufficient funds that we could give them basic ration until there was work.” She talked about the responsibility of the privileged to understand that their position is not based on merit alone but an advantage at birth, especially in India where caste and class differences still dominate our lives. It is therefore even more pertinent in times of crisis that we are willing to let some of this privilege percolate down. She also talked about how the migrant labour force in India is situated so low in the social hierarchy, and that many in the IISER community have taken up a long-term engagement with the Milk and Eggs program and the Doorstep school. “I think another useful lesson the pandemic taught us is this awareness that no one is above falling through the cracks. Before the pandemic, there was sense the world is running reasonably on smooth wheels. We just assumed that the kids in the bast' had appropriate nutrition, clothes, and toys and went to school as mandated by the government. Then COVID hit and there was a realization that someone taking care of the system had to be you and simply doing your job was just not good enough. Several people in IISER signed up for doing various things beyond the call of their duty. That the basti people are no longer invisible to us, doing their jobs in the background, is a big achievement of the times.” 
 
 As the lines between reality and dystopia have grown incoherent, and we have been forced to stare uncertainty to the face, it has only been difficult to deal with our circumstances, and arguably more so to transition into newer systems, and harder still to design them. As the pandemic rages on with little hope of respite, in the end, we are all teetering to settle into a system that resembles the normal more and less at the same time, with each passing day, leaving barely anything that makes sense to the intuition. Will these circumstances last long enough for us to get acclimatized to them? Will they last even longer? We cannot say. We can only wash our hands, wear our masks, and brave this new abnormal. 
+
 
 Authors - Ranojoy Baisya, Rajashree Nayak, Suryadeepto Nag, Sabareesh SS, Satavisha De, Ishani Hira, Varuni Nagesh, Naren S Narayanan, Amoghavarsha AV
 

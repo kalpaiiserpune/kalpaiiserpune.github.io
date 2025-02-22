@@ -2,7 +2,7 @@
 title: "Comments on the Constitution"
 description: "This article intends to update the reader (a student probably) on the issues that the Constitution of the Student Council of IISER Pune faces. Even apart from the problems in its phrasing and structure, trouble arises from its selective interpretation and, at times, the complete disregard with which the administration and previous Councils have treated it."
 authors: ["Angad Singh" , "Raj Bagwe"]
-pubDate: "Feb 22 2025"
+pubDate: "2025-02-22"
 heroImage: "/constitution/comic.webp"
 ---
 
@@ -66,7 +66,6 @@ Before the Council Elections 2023, students organized and collected over 500 sig
 In the Council elections of 2024, there was a further shrinkage of voter turnout, and there was no organized effort by the student body to cancel the elections. Anirban Hazra, a faculty member on the election committee, brought up the prospect of conducting elections in the January semester instead of the August semester, a change that would allow the most active members of student activities on campus, i.e., the first years, to vote and stand in the elections (if the Constitution allowed it). 
 
 This also feeds into the discussion regarding a need for more structure to give legitimacy to referendum-type and public voting initiatives. There have been many examples of large spontaneous organization amongst students, especially when we have felt that the council is doing far from an adequate job of representing us. A motion of no confidence is a petition against a member or the whole council with the support of at least 1/3rd of BSMS and PhD students. Such a petition would allow us to remove the Council, but no action will be taken until there is a way to acknowledge and record these opinions.
-
 
 
 Authors – Angad Singh and Raj Bagwe

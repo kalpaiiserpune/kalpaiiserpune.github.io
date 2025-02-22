@@ -2,7 +2,7 @@
 title: "A Balancing Act"
 description: "Labs at IISER never sleep. We love our science, but it seems to come at a price"
 authors: ["Vasudha Kulkarni", "Saismit Naik", "Aharna Sarkar", "Khushi Datri", "Shaswat Nair", "Srivathsa Kurpad", "Sultan Nazir"]
-pubDate: "April 18 2022"
+pubDate: "2022-04-18"
 heroImage: "/toxic.webp"
 ---
 
@@ -86,4 +86,4 @@ References
 8.  TIFR probe draws the curtains on NCBS retraction case, but not all the way. The Wire. S. Datta 2021 [https://science.thewire.in/the-sciences/tifr-taec-probe-ncbs-arati-ramesh-retraction-case-supervisory-committee/]
 9.  4 suicides in 7 months at IISc Bengaluru during Covid put spotlight on mental health issues. The Print. S. Agrawal 2021 [https://theprint.in/india/4-suicides-in-7-months-at-iisc-bengaluru-during-covid-put-spotlight-on-mental-health-issues/736924/]
 10. The Year That Wasn’t. Kalpa. S. Mittal 2021 [https://kalpa.iiserpune.ac.in/the-year-that-wasnt/]
-11. Beyond Academic stress and burnout. Voices of Academia. D. Rupert 2022 [https://voicesofacademia.com/2022/01/21/beyond-academic-stress-and-burnout-nurturing-a-healthier-academia-by-deborah-rupert/]
+11. Beyond Academic stress and burnout. Voices of Academia. D. Rupert 2022 [https://voicesofacademia.com/2022/01/21/beyond-academic-stress-and-burnout-nurturing-a-healthier-academia-by-deborah-rupert/] 

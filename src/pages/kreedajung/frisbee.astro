@@ -1,0 +1,36 @@
+---
+import ScoreCard from "@components/ScoreCard.astro"
+var scoreData;
+import BaseLayout from "@layouts/BaseLayout.astro";
+import Papa from "papaparse";
+import fs from "fs";
+const csvText = fs.readFileSync("./public/krcsvs/frisbee.csv","utf-8")
+const jsonData = Papa.parse(csvText, {
+  header: true,
+  skipEmptyLines: true,
+}).data;
+
+---
+<BaseLayout title="frisbee" sideBarActiveItemID="frisbee">
+    <div class="flex text-3xl w-full font-bold mb-5 justify-left">Frisbee</div>
+    <div class="flex flex-wrap gap-4 justify-center">
+    </div>
+    <div class="flex flex-wrap justify-center">
+{   
+    jsonData.map(score => (
+    <ScoreCard 
+        type = "frisbee"
+        matchno = {score.MATCHNO}
+        teamA = {score.TEAMA}
+        teamB = {score.TEAMB}
+        scoreA = {score.SCOREA}
+        scoreB = {score.SCOREB}
+        exA = {score.SPIRITA}
+        exB = {score.SPIRITB}
+        result = {score.RESULT}
+    />
+)
+)
+}
+    </div>
+</BaseLayout>
